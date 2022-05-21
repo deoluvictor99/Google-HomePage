@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-color:#fffdfe;
+    /* max-height: 97vh; */
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 15px 5px;
+    height: 55px;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li img{
+    width:  30px;
+}
+
+nav ul li img:hover{
+    cursor: pointer;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.avatar{
+    height: 39px;
+    width: 37px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+figure{
+    max-width: 23em;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+figure img{
+    height: 300px;
+    position: absolute;
+    top: 55px;
+}
+
+input{
+    margin: 0 auto 2rem;
+    display: block;
+    width: 30rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(187, 184, 184);
+}
+
+.btn, .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin: 0.2rem;
+    padding: 10px 22px;
+    border-radius: 4px;
+    border: none;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+.text{
+    margin-top: 2rem;
+}
+.text a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer{
+    background: #eee;
+}
+
+footer .nig p{
+    margin-top: 100px;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    background: #eee;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+footer a{
+    text-decoration: none;
+    padding: 12px;
+}
+
+footer .co2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer .co2 img{
+    max-width: 30px;
+    cursor: pointer;
+}
+
+footer .co2 a{
+    color: #000;
+    cursor: pointer;
+    margin-left: 5px ;
+}
+
+footer .co2 a:hover{
+    text-decoration: underline;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
